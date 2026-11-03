@@ -34,7 +34,7 @@
 let name = "karan";
 
 // boolean
-let bool = true;  
+let bool = true;
 
 // null
 let empty = null;
@@ -74,15 +74,15 @@ console.log(numbers); // Output: [1, 2, 3, 4, 5]
 // function
 function greet(name) {
   return `Hello, ${name}!`;
-} 
+}
 console.log(greet("karan"));
-console.log(greet("John"));       
+console.log(greet("John"));
 
 // JavaScript Operators
 
 // Arithmetic Operators
 let a = 10;
-let b = 5;  
+let b = 5;
 console.log(a + b); // Output: 15
 console.log(a - b); // Output: 5
 console.log(a * b); // Output: 50    
@@ -127,7 +127,7 @@ console.log(a <= b); // Output: false , checks if a is less than or equal to b
 
 // Logical Operators
 let p = true;
-let q = false;  
+let q = false;
 console.log(p && q); // Output: false , logical AND , checks if both p and q are true
 console.log(p || q); // Output: true , logical OR , checks if either p or q is true
 console.log(!p); // Output: false , logical NOT   , checks if p is not true
@@ -180,7 +180,7 @@ let x = (5, 10); // Output: 10 , evaluates both expressions and returns the valu
 console.log(x); // Output: 10
 
 // Relational Operators
-const obj = { length: 10 };  
+const obj = { length: 10 };
 console.log("length" in obj); // Output: true , checks if the property "length" exists in obj
 console.log([] instanceof Array); // Output: true , checks if [] is an instance of Array
 
